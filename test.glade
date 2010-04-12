@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="title" translatable="yes">Test</property>
+    <child>
+      <object class="GtkLabel" id="test">
+        <property name="visible">True</property>
+        <property name="label" translatable="yes">Test de fen&#xEA;tre</property>
+      </object>
+    </child>
+  </object>
+</interface>
